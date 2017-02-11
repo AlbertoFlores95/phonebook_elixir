@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :phonebook_elixir, PhonebookElixir.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   database: "phonebook_elixir_dev",
   hostname: "localhost",
   pool_size: 10
